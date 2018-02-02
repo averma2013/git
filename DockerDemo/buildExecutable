@@ -1,0 +1,2 @@
+docker build -t hello-world C/:\Users\averma20\Music\git\DockerDemo\
+docker run -d --name helloworld -p 80:80 -v C/:\Users\averma20\Music\git\DockerDemo\src\:C/:\Users\averma20\Music\git\DockerDemo\ hello-world
